@@ -14,7 +14,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{4836F11F-BC7F-4626-E387-861201290A58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -59,12 +60,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Code\DragBaseObject.cs" />
-    <Compile Include="Assets\Code\DrawLine.cs" />
-    <Compile Include="Assets\Code\EventHandlerProxy.cs" />
-    <Compile Include="Assets\Code\Math2D.cs" />
-    <Compile Include="Assets\Code\TestDragMoveGroup.cs" />
-    <Compile Include="Assets\Code\TestLink.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataGraph.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataGUI.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataNode.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataPortal.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataPortalLink.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\GUI\RenderObject\RNG_GraphBase.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\GUI\RenderObject\RNG_NodeBase.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\GUI\RenderObject\RNG_PortalBase.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\GUI\RenderObject\RNG_PortalLinkBase.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\GUI\RNG_AssetsFactory.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\OperateLogic\Graph\DragDrop\RNG_GraphDragDropLogicFacade.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\OperateLogic\Graph\DragDrop\Sub\RNG_GraphDragToMoveLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\OperateLogic\Graph\DragDrop\Sub\RNG_GraphDragToSelectLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\OperateLogic\Graph\ZoomInOut\RNG_GraphZoomInOutLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\OperateLogic\Node\RNG_NodeDeleteSelectedLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\OperateLogic\Node\RNG_NodeDragToMoveLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\OperateLogic\Portal\RNG_PortalDragToLinkLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\OperateLogic\PortalLink\RNG_PortalLinkDeleteSelectedLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\RNG_ClassWrap.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\RNG.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\RNG_Const.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Utils\CENotification.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Utils\Math2D.cs" />
+    <Compile Include="Assets\Demo1\Dev\DragBaseObject.cs" />
+    <Compile Include="Assets\Demo1\Dev\DrawLine.cs" />
+    <Compile Include="Assets\Demo1\Dev\EventHandlerProxy.cs" />
+    <Compile Include="Assets\Demo1\Dev\TestDragMoveGroup.cs" />
+    <Compile Include="Assets\Demo1\Dev\TestLink.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/eran/WorkGround/Unity/Project/CERuntimeNodeGraphEditor/CERuntimeNodeGraphEditor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -623,6 +646,9 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Demo1\Code" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

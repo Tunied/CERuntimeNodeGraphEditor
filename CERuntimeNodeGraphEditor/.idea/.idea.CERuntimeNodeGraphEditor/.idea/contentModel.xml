@@ -6,13 +6,66 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Code" t="Include">
-          <e p="DragBaseObject.cs" t="Include" />
-          <e p="DrawLine.cs" t="Include" />
-          <e p="EventHandlerProxy.cs" t="Include" />
-          <e p="Math2D.cs" t="Include" />
-          <e p="TestDragMoveGroup.cs" t="Include" />
-          <e p="TestLink.cs" t="Include" />
+        <e p="CERuntimeNodeGraph" t="Include">
+          <e p="Core" t="Include">
+            <e p="Data" t="Include">
+              <e p="RNG_DataGraph.cs" t="Include" />
+              <e p="RNG_DataGUI.cs" t="Include" />
+              <e p="RNG_DataNode.cs" t="Include" />
+              <e p="RNG_DataPortal.cs" t="Include" />
+              <e p="RNG_DataPortalLink.cs" t="Include" />
+            </e>
+            <e p="GUI" t="Include">
+              <e p="RenderObject" t="Include">
+                <e p="RNG_GraphBase.cs" t="Include" />
+                <e p="RNG_NodeBase.cs" t="Include" />
+                <e p="RNG_PortalBase.cs" t="Include" />
+                <e p="RNG_PortalLinkBase.cs" t="Include" />
+              </e>
+              <e p="RNG_AssetsFactory.cs" t="Include" />
+            </e>
+            <e p="OperateLogic" t="Include">
+              <e p="Graph" t="Include">
+                <e p="DragDrop" t="Include">
+                  <e p="RNG_GraphDragDropLogicFacade.cs" t="Include" />
+                  <e p="Sub" t="Include">
+                    <e p="RNG_GraphDragToMoveLogic.cs" t="Include" />
+                    <e p="RNG_GraphDragToSelectLogic.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="ZoomInOut" t="Include">
+                  <e p="RNG_GraphZoomInOutLogic.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Node" t="Include">
+                <e p="RNG_NodeDeleteSelectedLogic.cs" t="Include" />
+                <e p="RNG_NodeDragToMoveLogic.cs" t="Include" />
+              </e>
+              <e p="Portal" t="Include">
+                <e p="RNG_PortalDragToLinkLogic.cs" t="Include" />
+              </e>
+              <e p="PortalLink" t="Include">
+                <e p="RNG_PortalLinkDeleteSelectedLogic.cs" t="Include" />
+              </e>
+            </e>
+            <e p="RNG_ClassWrap.cs" t="Include" />
+          </e>
+          <e p="RNG.cs" t="Include" />
+          <e p="RNG_Const.cs" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="CENotification.cs" t="Include" />
+            <e p="Math2D.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Demo1" t="Include">
+          <e p="Code" t="Include" />
+          <e p="Dev" t="Include">
+            <e p="DragBaseObject.cs" t="Include" />
+            <e p="DrawLine.cs" t="Include" />
+            <e p="EventHandlerProxy.cs" t="Include" />
+            <e p="TestDragMoveGroup.cs" t="Include" />
+            <e p="TestLink.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="CERuntimeNodeGraphEditor.sln" t="IncludeFlat" />
