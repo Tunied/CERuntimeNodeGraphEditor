@@ -23,7 +23,7 @@ namespace DefaultNamespace
                 if (node.IsNodeSelected)
                 {
                     node.NodeOnEndDragMove(eventData);
-                    node.RecalculateRect();
+                    node.MarkNeedRepaint();
                 }
             });
         }

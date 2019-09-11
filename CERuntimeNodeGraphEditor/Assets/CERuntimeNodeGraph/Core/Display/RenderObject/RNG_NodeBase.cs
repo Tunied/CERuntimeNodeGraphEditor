@@ -1,3 +1,5 @@
+using System;
+using Code.CopyEngine.Core.Notification;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -7,28 +9,66 @@ namespace CERuntimeNodeGraph.Code.GUI.RenderObject
     public class RNG_NodeBase : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler
     {
         protected RectTransform mRT;
-        private bool mIsNodeSelected;
 
+        private bool mIsNodeSelected;
+        private Vector2 mStartMoveOffset;
         private Rect mWorldRect;
+
+        private bool mIsNeedRepaint;
+
+        public int UID;
+
+        /// <summary>
+        /// 当前节点下的所有Portal
+        /// </summary>
+        [HideInInspector]
+        public RNG_PortalBase[] subPortals;
 
         private void Start()
         {
-            RNG.Display.allNodeList.Add(this);
+            UID = CEUID.NewOne();
             mRT = GetComponent<RectTransform>();
+            subPortals = GetComponentsInChildren<RNG_PortalBase>();
+            RNG.Display.allNodeList.Add(this);
             RecalculateRect();
             Initialize();
         }
 
-        protected virtual void Initialize() { }
+        public void MarkNeedRepaint()
+        {
+            mIsNeedRepaint = true;
+            foreach (var portal in subPortals)
+            {
+                portal.MarkNeedRepaint();
+            }
+        }
+
+
+        private void OnDestroy()
+        {
+            RNG.Display.allNodeList.Remove(this);
+            foreach (var portal in subPortals)
+            {
+                portal.MarkNeedRepaint();
+            }
+        }
+
+
+        private void Update()
+        {
+            if (!mIsNeedRepaint) return;
+            mIsNeedRepaint = false;
+            OnRepaint();
+            RecalculateRect();
+        }
 
         public Rect GetWorldRect() { return mWorldRect; }
 
-        private void Update() { }
 
         /// <summary>
         /// 重新计算当前Rect区域,发生与Graph的移动或者Zoom.同时自身Move或者RT发生变化时候 也需要调用
         /// </summary>
-        public void RecalculateRect()
+        private void RecalculateRect()
         {
             var v = new Vector3[4];
             mRT.GetWorldCorners(v);
@@ -46,8 +86,6 @@ namespace CERuntimeNodeGraph.Code.GUI.RenderObject
                 OnNodeSelectedChange(mIsNodeSelected);
             }
         }
-
-        protected virtual void OnNodeSelectedChange(bool _isNowSelected) { }
 
 
         //==================
@@ -69,11 +107,25 @@ namespace CERuntimeNodeGraph.Code.GUI.RenderObject
             RNG.Logic.Node.Move.OnBeginDrag(eventData);
         }
 
-        private Vector2 mStartMoveOffset;
-        public void NodeOnBeginDragMove(PointerEventData eventData) { mStartMoveOffset = new Vector2(mRT.position.x, mRT.position.y) - eventData.position; }
 
-        public void NodeOnEndDragMove(PointerEventData eventData) { }
+        //====================
+        //== 可重载函数
+        //====================
 
-        public void NodeOnDragMove(PointerEventData eventData) { mRT.position = eventData.position + mStartMoveOffset; }
+        protected virtual void Initialize() { }
+
+        protected virtual void OnRepaint() { }
+
+        protected virtual void OnNodeSelectedChange(bool _isNowSelected) { }
+
+        public virtual void NodeOnBeginDragMove(PointerEventData eventData) { mStartMoveOffset = new Vector2(mRT.position.x, mRT.position.y) - eventData.position; }
+
+        public virtual void NodeOnEndDragMove(PointerEventData eventData) { }
+
+        public virtual void NodeOnDragMove(PointerEventData eventData)
+        {
+            mRT.position = eventData.position + mStartMoveOffset;
+            MarkNeedRepaint();
+        }
     }
 }

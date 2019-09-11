@@ -16,28 +16,28 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F9116A48-AA9E-4F2D-9F2A-36E1861E6505/6f/6f581025/Rect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_SelectRectHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Graph/DragDrop/Sub/RNG_GraphDragToSelectLogic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataPortalLink.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_PortalBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Portal/RNG_PortalDragToLinkLogic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataPortal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/PortalLink/RNG_PortalLinkSearchLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/RNG_Const.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Graph/DragDrop/Sub/RNG_GraphDragToMoveLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RNG_AssetsFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/RNG_Demo1_AssetsFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/RNG_Ext_Const.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/RNG_ClassWrap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/RNG.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/RNG_Init.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataGraph.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_PortalLinkBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Utils/CEUID.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demo1/Dev/DrawLine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Dev/EventHandlerProxy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Node/RNG_NodeDragToMoveLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_GraphBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/Nodes/Demo1Nodes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Dev/DragBaseObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Dev/TestDragMoveGroup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Node/RNG_NodeSearchLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Portal/RNG_PortalSearchLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/Data/RNG_Ext_GUIData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F9116A48-AA9E-4F2D-9F2A-36E1861E6505/10/b99cd618/RectTransform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/PortalLink/RNG_PortalLinkDeleteSelectedLogic.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,15 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/OperateLogic/ViewLevel/DragDrop/Sub/RNG_DragToMoveBgLogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/OperateLogic/ViewLevel/DragDrop/Sub/RNG_DragToEasePortLinkLogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/OperateLogic/NodeLevel/RNG_NodeDragDropLogicFacade.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/OperateLogic/View/ZoomInOut/RNG_ZoomInOutLogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/OperateLogic/Node/RNG_NodeDragDropLogicFacade.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/OperateLogic/Portal/RNG_PortalDragDropLogicFacade.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/OperateLogic/Node/RNG_NodeDeleteSelectedLogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/Data/RNG_DataGraph.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/Data/RNG_DataNode.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/Data/RNG_DataPortal.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/Data/RNG_DataPortalLink.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/OperateLogic/View/DragDrop/Sub/RNG_ViewDragToSelectNodeLogic.cs" />
@@ -82,26 +73,35 @@
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/RNG_AssetsFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/RNG.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Utils/CENotification.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RNG_AssetsFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/RNG.cs" />
         <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Demo_AssetsFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Demo1_AssetsFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Init.cs" />
         <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleDragToMoveGraphHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Ext.cs" />
         <option value="$PROJECT_DIR$/Assets/Demo1/Code/Data/RNG_Ext_GUIData.cs" />
         <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Ext_Const.cs" />
         <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleScrollToZoomGrahp.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_GraphBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleDragToMoveGraph.cs" />
-        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleScrollToZoomGraph.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Node/RNG_NodeSelecteRectLogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/RNG_ClassWrap.cs" />
         <option value="$PROJECT_DIR$/Assets/Demo1/Code/Nodes/Demo1Nodes.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Node/RNG_NodeRectSelectLogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Node/RNG_NodeDragToMoveLogic.cs" />
-        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_NodeBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_SelectRectHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RNG_AssetsFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Portal/RNG_PortalDragToLinkLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Demo1_AssetsFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Init.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Utils/CEUID.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/PortalLink/RNG_PortalLinkSeachLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/RNG.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Node/RNG_NodeSearchLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Node/RNG_NodeDragToMoveLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleScrollToZoomGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/PortalLink/RNG_PortalLinkSearchLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Portal/RNG_PortialSeachLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Portal/RNG_PortalSearchLogic.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/RNG_ClassWrap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleDragToMoveGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_NodeBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_PortalLinkBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_PortalBase.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +110,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.handlebarsOptions" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,10 +132,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="3056">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="618">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3056" />
+      <option name="pid" value="618" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -149,6 +149,8 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1560" height="902" key="DebuggerActiveHint" />
+    <state width="1560" height="902" key="DebuggerActiveHint/1680.1050/3440.1440" />
     <state width="3388" height="504" key="GridCell.Tab.0.bottom" />
     <state width="3388" height="504" key="GridCell.Tab.0.bottom/1680.1050/3440.1440" />
     <state width="3388" height="504" key="GridCell.Tab.0.center" />
@@ -183,6 +185,8 @@
     <state width="3388" height="504" key="GridCell.Tab.3.right/1680.1050/3440.1440" />
     <state x="3026" y="311" key="RiderGenerateDialog" />
     <state x="3026" y="311" key="RiderGenerateDialog/1680.1050/3440.1440" />
+    <state x="2766" y="209" key="SettingsEditor" />
+    <state x="2766" y="209" key="SettingsEditor/1680.1050/3440.1440" />
     <state x="2980" y="126" width="840" height="1032" key="search.everywhere.popup" />
     <state x="2980" y="126" width="840" height="1032" key="search.everywhere.popup/1680.1050/3440.1440" />
   </component>

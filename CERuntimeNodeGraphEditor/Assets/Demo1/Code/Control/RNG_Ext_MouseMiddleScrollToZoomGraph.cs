@@ -9,15 +9,13 @@ namespace DefaultNamespace.Control
         public float maxZoomSize = 2f;
         public float scrollSpeed = 0.1f;
 
-        public Transform Graph;
-
 
         private void Update()
         {
             var dir = Input.mouseScrollDelta.y;
             if (dir == 0) return;
 
-            var nowScale = Graph.localScale;
+            var nowScale = RNG.Display.ContentRoot.localScale;
 
             nowScale.x += dir > 0 ? scrollSpeed : -scrollSpeed;
             nowScale.x = Mathf.Min(nowScale.x, maxZoomSize);
@@ -26,9 +24,9 @@ namespace DefaultNamespace.Control
             nowScale.y = nowScale.x;
             nowScale.z = nowScale.x;
 
-            Graph.localScale = nowScale;
+            RNG.Display.ContentRoot.localScale = nowScale;
 
-            RNG.Display.allNodeList.ForEach(node => node.RecalculateRect());
+            RNG.Display.allNodeList.ForEach(node => node.MarkNeedRepaint());
         }
     }
 }

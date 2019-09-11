@@ -5,8 +5,6 @@ namespace DefaultNamespace.Control
 {
     public class RNG_Ext_MouseMiddleDragToMoveGraph : MonoBehaviour
     {
-        public Transform Graph;
-
         private bool mIsDuringDrag;
 
         private Vector3 mViewDownPos;
@@ -17,7 +15,7 @@ namespace DefaultNamespace.Control
             if (Input.GetMouseButtonDown(2))
             {
                 mIsDuringDrag = true;
-                mViewDownPos = Graph.position;
+                mViewDownPos = RNG.Display.ContentRoot.position;
                 mMouseDownPos = Input.mousePosition;
                 return;
             }
@@ -37,8 +35,8 @@ namespace DefaultNamespace.Control
 
         private void RunMoveLogic()
         {
-            Graph.position = mViewDownPos + (Input.mousePosition - mMouseDownPos);
-            RNG.Display.allNodeList.ForEach(node => node.RecalculateRect());
+            RNG.Display.ContentRoot.position = mViewDownPos + (Input.mousePosition - mMouseDownPos);
+            RNG.Display.allNodeList.ForEach(node => node.MarkNeedRepaint());
         }
     }
 }

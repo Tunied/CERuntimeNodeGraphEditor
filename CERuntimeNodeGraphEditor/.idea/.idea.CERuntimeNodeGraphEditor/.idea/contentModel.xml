@@ -8,13 +8,6 @@
       <e p="Assets" t="Include">
         <e p="CERuntimeNodeGraph" t="Include">
           <e p="Core" t="Include">
-            <e p="Data" t="Include">
-              <e p="RNG_DataGraph.cs" t="Include" />
-              <e p="RNG_DataGUI.cs" t="Include" />
-              <e p="RNG_DataNode.cs" t="Include" />
-              <e p="RNG_DataPortal.cs" t="Include" />
-              <e p="RNG_DataPortalLink.cs" t="Include" />
-            </e>
             <e p="Display" t="Include">
               <e p="RenderObject" t="Include">
                 <e p="RNG_GraphBase.cs" t="Include" />
@@ -41,12 +34,15 @@
                 <e p="RNG_NodeDeleteSelectedLogic.cs" t="Include" />
                 <e p="RNG_NodeDragToMoveLogic.cs" t="Include" />
                 <e p="RNG_NodeRectSelectLogic.cs" t="Include" />
+                <e p="RNG_NodeSearchLogic.cs" t="Include" />
               </e>
               <e p="Portal" t="Include">
                 <e p="RNG_PortalDragToLinkLogic.cs" t="Include" />
+                <e p="RNG_PortalSearchLogic.cs" t="Include" />
               </e>
               <e p="PortalLink" t="Include">
                 <e p="RNG_PortalLinkDeleteSelectedLogic.cs" t="Include" />
+                <e p="RNG_PortalLinkSearchLogic.cs" t="Include" />
               </e>
             </e>
             <e p="RNG_ClassWrap.cs" t="Include" />
@@ -55,6 +51,7 @@
           <e p="RNG_Const.cs" t="Include" />
           <e p="Utils" t="Include">
             <e p="CENotification.cs" t="Include" />
+            <e p="CEUID.cs" t="Include" />
             <e p="Math2D.cs" t="Include" />
           </e>
         </e>

@@ -59,11 +59,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataGraph.cs" />
-    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataGUI.cs" />
-    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataNode.cs" />
-    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataPortal.cs" />
-    <Compile Include="Assets\CERuntimeNodeGraph\Core\Data\RNG_DataPortalLink.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Display\RenderObject\RNG_GraphBase.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Display\RenderObject\RNG_NodeBase.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Display\RenderObject\RNG_PortalBase.cs" />
@@ -76,12 +71,16 @@
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Node\RNG_NodeDeleteSelectedLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Node\RNG_NodeDragToMoveLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Node\RNG_NodeRectSelectLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Node\RNG_NodeSearchLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Portal\RNG_PortalDragToLinkLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Portal\RNG_PortalSearchLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\PortalLink\RNG_PortalLinkDeleteSelectedLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\PortalLink\RNG_PortalLinkSearchLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\RNG_ClassWrap.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\RNG.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\RNG_Const.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Utils\CENotification.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Utils\CEUID.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Utils\Math2D.cs" />
     <Compile Include="Assets\Demo1\Code\Control\RNG_Ext_MouseMiddleDragToMoveGraph.cs" />
     <Compile Include="Assets\Demo1\Code\Control\RNG_Ext_MouseMiddleScrollToZoomGraph.cs" />
