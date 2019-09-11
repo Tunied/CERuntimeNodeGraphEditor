@@ -15,7 +15,7 @@
               <e p="RNG_DataPortal.cs" t="Include" />
               <e p="RNG_DataPortalLink.cs" t="Include" />
             </e>
-            <e p="GUI" t="Include">
+            <e p="Display" t="Include">
               <e p="RenderObject" t="Include">
                 <e p="RNG_GraphBase.cs" t="Include" />
                 <e p="RNG_NodeBase.cs" t="Include" />
@@ -24,7 +24,7 @@
               </e>
               <e p="RNG_AssetsFactory.cs" t="Include" />
             </e>
-            <e p="OperateLogic" t="Include">
+            <e p="Operate" t="Include">
               <e p="Graph" t="Include">
                 <e p="DragDrop" t="Include">
                   <e p="RNG_GraphDragDropLogicFacade.cs" t="Include" />
@@ -58,13 +58,54 @@
           </e>
         </e>
         <e p="Demo1" t="Include">
-          <e p="Code" t="Include" />
+          <e p="Code" t="Include">
+            <e p="Control" t="Include">
+              <e p="RNG_Ext_MouseMiddleDragToMoveGraph.cs" t="Include" />
+              <e p="RNG_Ext_MouseMiddleScrollToZoomGraph.cs" t="Include" />
+              <e p="RNG_Ext_SelectRectHandler.cs" t="Include" />
+            </e>
+            <e p="Data" t="Include">
+              <e p="RNG_Ext_GUIData.cs" t="Include" />
+            </e>
+            <e p="RNG_Demo1_AssetsFactory.cs" t="Include" />
+            <e p="RNG_Ext.cs" t="Include" />
+            <e p="RNG_Ext_Const.cs" t="Include" />
+            <e p="RNG_Init.cs" t="Include" />
+          </e>
           <e p="Dev" t="Include">
             <e p="DragBaseObject.cs" t="Include" />
             <e p="DrawLine.cs" t="Include" />
             <e p="EventHandlerProxy.cs" t="Include" />
             <e p="TestDragMoveGroup.cs" t="Include" />
             <e p="TestLink.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>

@@ -9,44 +9,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/OperateLogic/Graph/DragDrop/RNG_GraphDragDropLogicFacade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/OperateLogic/Graph/DragDrop/Sub/RNG_GraphDragToSelectLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/RNG_Ext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleDragToMoveGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Graph/DragDrop/RNG_GraphDragDropLogicFacade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F9116A48-AA9E-4F2D-9F2A-36E1861E6505/6f/6f581025/Rect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_SelectRectHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Graph/DragDrop/Sub/RNG_GraphDragToSelectLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataPortalLink.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/GUI/RenderObject/RNG_PortalBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/OperateLogic/Portal/RNG_PortalDragToLinkLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_PortalBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Portal/RNG_PortalDragToLinkLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataPortal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/RNG_Const.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/OperateLogic/Graph/DragDrop/Sub/RNG_GraphDragToMoveLogic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/GUI/RNG_AssetsFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Graph/DragDrop/Sub/RNG_GraphDragToMoveLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RNG_AssetsFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/RNG_Demo1_AssetsFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/RNG_Ext_Const.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/RNG_ClassWrap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/RNG.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/RNG_Init.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataGraph.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/GUI/RenderObject/RNG_PortalLinkBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_PortalLinkBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Dev/EventHandlerProxy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/OperateLogic/Node/RNG_NodeDragToMoveLogic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/GUI/RenderObject/RNG_GraphBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Node/RNG_NodeDragToMoveLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_GraphBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Dev/DragBaseObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo1/Dev/TestDragMoveGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Data/RNG_DataGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/Data/RNG_Ext_GUIData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F9116A48-AA9E-4F2D-9F2A-36E1861E6505/10/b99cd618/RectTransform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/OperateLogic/PortalLink/RNG_PortalLinkDeleteSelectedLogic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/OperateLogic/Graph/ZoomInOut/RNG_GraphZoomInOutLogic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/GUI/RenderObject/RNG_NodeBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/PortalLink/RNG_PortalLinkDeleteSelectedLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Graph/ZoomInOut/RNG_GraphZoomInOutLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RenderObject/RNG_NodeBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Utils/CENotification.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/OperateLogic/Node/RNG_NodeDeleteSelectedLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Operate/Node/RNG_NodeDeleteSelectedLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Utils/Math2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleScrollToZoomGraph.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Code/DragableObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/EventHandlerProxy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/DragBaseObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TestLink.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Math2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/DrawLine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/TestDragMoveGroup.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/RNG_Const.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/DragDropLogic/RNG_DragDropLogicFacade.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/Core/OperateLogic/ViewLevel/DragDrop/Sub/RNG_DragToEaseNodeLinkLogic.cs" />
@@ -84,6 +86,20 @@
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/RNG_AssetsFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Code/RNG.cs" />
         <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Utils/CENotification.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/Display/RNG_AssetsFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/Core/RNG_ClassWrap.cs" />
+        <option value="$PROJECT_DIR$/Assets/CERuntimeNodeGraph/RNG.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Demo_AssetsFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Demo1_AssetsFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Init.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleDragToMoveGraphHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Ext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Data/RNG_Ext_GUIData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/RNG_Ext_Const.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_SelectRectHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleDragToMoveGraph.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleScrollToZoomGrahp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demo1/Code/Control/RNG_Ext_MouseMiddleScrollToZoomGraph.cs" />
       </list>
     </option>
   </component>

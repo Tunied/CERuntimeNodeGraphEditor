@@ -1,5 +1,4 @@
 using CERuntimeNodeGraph.Code.Core.DragDropLogic;
-using CERuntimeNodeGraph.Code.GUI.RenderObject;
 using DefaultNamespace;
 using UnityEngine;
 
@@ -48,6 +47,13 @@ namespace CERuntimeNodeGraph.Code
         {
             public RNG_GraphDragDropLogicFacade DragDrop = new RNG_GraphDragDropLogicFacade();
             public RNG_GraphZoomInOutLogic Zoom = new RNG_GraphZoomInOutLogic();
+        }
+
+        public class DisplayRoot
+        {
+            public GameObject ContentCanvas;
+            public GameObject ControlCanvas;
+            public GameObject GUICanvas;
         }
     }
 }
