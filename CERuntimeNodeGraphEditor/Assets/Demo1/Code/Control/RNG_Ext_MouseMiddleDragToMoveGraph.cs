@@ -1,3 +1,4 @@
+using CERuntimeNodeGraph.Code;
 using UnityEngine;
 
 namespace DefaultNamespace.Control
@@ -34,6 +35,10 @@ namespace DefaultNamespace.Control
             }
         }
 
-        private void RunMoveLogic() { Graph.position = mViewDownPos + (Input.mousePosition - mMouseDownPos); }
+        private void RunMoveLogic()
+        {
+            Graph.position = mViewDownPos + (Input.mousePosition - mMouseDownPos);
+            RNG.Display.allNodeList.ForEach(node => node.RecalculateRect());
+        }
     }
 }

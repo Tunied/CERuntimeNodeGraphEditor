@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using CERuntimeNodeGraph.Code.Core.DragDropLogic;
+using CERuntimeNodeGraph.Code.GUI.RenderObject;
 using DefaultNamespace;
 using UnityEngine;
 
@@ -31,6 +33,7 @@ namespace CERuntimeNodeGraph.Code
         {
             public RNG_NodeDeleteSelectedLogic Delete = new RNG_NodeDeleteSelectedLogic();
             public RNG_NodeDragToMoveLogic Move = new RNG_NodeDragToMoveLogic();
+            public RNG_NodeRectSelectLogic Select = new RNG_NodeRectSelectLogic();
         }
 
         public class SubPortalLogicRoot
@@ -54,6 +57,9 @@ namespace CERuntimeNodeGraph.Code
             public GameObject ContentCanvas;
             public GameObject ControlCanvas;
             public GameObject GUICanvas;
+
+            public List<RNG_NodeBase> allNodeList = new List<RNG_NodeBase>();
+            public List<RNG_DataPortalLink> allLinkList = new List<RNG_DataPortalLink>();
         }
     }
 }

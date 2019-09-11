@@ -75,6 +75,7 @@
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Graph\ZoomInOut\RNG_GraphZoomInOutLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Node\RNG_NodeDeleteSelectedLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Node\RNG_NodeDragToMoveLogic.cs" />
+    <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Node\RNG_NodeRectSelectLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\Portal\RNG_PortalDragToLinkLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\Operate\PortalLink\RNG_PortalLinkDeleteSelectedLogic.cs" />
     <Compile Include="Assets\CERuntimeNodeGraph\Core\RNG_ClassWrap.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Assets\Demo1\Code\Control\RNG_Ext_MouseMiddleScrollToZoomGraph.cs" />
     <Compile Include="Assets\Demo1\Code\Control\RNG_Ext_SelectRectHandler.cs" />
     <Compile Include="Assets\Demo1\Code\Data\RNG_Ext_GUIData.cs" />
+    <Compile Include="Assets\Demo1\Code\Nodes\Demo1Nodes.cs" />
     <Compile Include="Assets\Demo1\Code\RNG_Demo1_AssetsFactory.cs" />
     <Compile Include="Assets\Demo1\Code\RNG_Ext.cs" />
     <Compile Include="Assets\Demo1\Code\RNG_Ext_Const.cs" />

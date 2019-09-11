@@ -1,15 +1,14 @@
+using CERuntimeNodeGraph.Code;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace DefaultNamespace.Control
 {
-    public class RNG_Ext_SelectRectHandler : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler
+    public class RNG_Ext_SelectRectHandler : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler, IPointerDownHandler
     {
         public RectTransform SelectRectRender;
 
         private Vector2 mDragDownPos;
-        private float mNowWidth;
-        private float mNowHeight;
         private bool mIsDuringDrag;
 
         private void Start() { SelectRectRender.gameObject.SetActive(false); }
@@ -42,11 +41,22 @@ namespace DefaultNamespace.Control
             var minY = Mathf.Min(_posA.y, _posB.y);
             var maxY = Mathf.Max(_posA.y, _posB.y);
 
-            mNowWidth = Mathf.Max(maxX - minX, 1);
-            mNowHeight = Mathf.Max(maxY - minY, 1);
+            var width = Mathf.Max(maxX - minX, 1);
+            var height = Mathf.Max(maxY - minY, 1);
 
             SelectRectRender.position = new Vector3(minX, minY, 0);
-            SelectRectRender.sizeDelta = new Vector2(mNowWidth, mNowHeight);
+            SelectRectRender.sizeDelta = new Vector2(width, height);
+
+            var worldRect = new Rect(minX, minY, width, height);
+            RNG.Logic.Node.Select.SelectNodesInRect(worldRect, true);
+        }
+
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            if (eventData.button == PointerEventData.InputButton.Left)
+            {
+                RNG.Logic.Node.Select.CleanAllSelected();
+            }
         }
     }
 }

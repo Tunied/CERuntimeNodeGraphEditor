@@ -40,6 +40,7 @@
               <e p="Node" t="Include">
                 <e p="RNG_NodeDeleteSelectedLogic.cs" t="Include" />
                 <e p="RNG_NodeDragToMoveLogic.cs" t="Include" />
+                <e p="RNG_NodeRectSelectLogic.cs" t="Include" />
               </e>
               <e p="Portal" t="Include">
                 <e p="RNG_PortalDragToLinkLogic.cs" t="Include" />
@@ -66,6 +67,9 @@
             </e>
             <e p="Data" t="Include">
               <e p="RNG_Ext_GUIData.cs" t="Include" />
+            </e>
+            <e p="Nodes" t="Include">
+              <e p="Demo1Nodes.cs" t="Include" />
             </e>
             <e p="RNG_Demo1_AssetsFactory.cs" t="Include" />
             <e p="RNG_Ext.cs" t="Include" />

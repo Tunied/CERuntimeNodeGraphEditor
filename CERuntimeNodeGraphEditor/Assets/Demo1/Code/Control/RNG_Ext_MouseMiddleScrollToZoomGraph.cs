@@ -1,3 +1,4 @@
+using CERuntimeNodeGraph.Code;
 using UnityEngine;
 
 namespace DefaultNamespace.Control
@@ -26,6 +27,8 @@ namespace DefaultNamespace.Control
             nowScale.z = nowScale.x;
 
             Graph.localScale = nowScale;
+
+            RNG.Display.allNodeList.ForEach(node => node.RecalculateRect());
         }
     }
 }
